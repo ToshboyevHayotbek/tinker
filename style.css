@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Rampart+One&family=Roboto+Slab:wght@900&family=Rowdies:wght@300&family=Shantell+Sans:ital,wght@1,800&family=Ubuntu:wght@300;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.4;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/banner_bg.jpg);
+    background-size: cover;
+}
+.header__content{
+    width: 100%;
+    height: 100vh;
+    padding: 3rem 0;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__item a{
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.logo a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.5s;
+}
+.logo b{
+    color: #F7C552;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+}
+.template{
+    padding-top: 18%;
+    width: 100%;
+    margin: 0 auto;
+}
+.template h2{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.template b{
+    text-align: center;
+    color: #F89624;
+    font-family: sans-serif;
+}
+.template span{
+    color: #33C1CF;
+    font-family: sans-serif;
+}
+.template p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+.template input{
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 20px;
+    margin-left: 45%;
+}
+.about{
+    width: 100%;
+    background-image: url(/img/about-bg.jpg);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+.about__title{
+    width: 100%;
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+.about__item{
+    width: 300px;
+    height: 400px;
+}
+.about__img{
+    width: 120px;
+    height: 120px;
+    border: 6px solid white;
+    border-radius: 100%;
+    background-color: #F7C552;
+    margin: 0 auto;
+}
+.about__img img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 13%;
+}
+.about__item h3{
+    color: white;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 6%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid white;
+}
+.about__item p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.about__item button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 20px;
+    margin-left: 20%;
+    border: none;
+}
+.galery{
+    width: 100%;
+    height: 75vh;
+    background-color: #33C1CF;
+}
+.galery__title{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+}
+.portfolio__img{
+    width: 100%;
+}
+.img__title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.portfolio__title{
+    width: 100%;
+    padding: 5rem;
+}
+.portfolio__title h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+.portfolio__title p{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+.portfolio__title a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+}
+.marketing{
+    width: 100%;
+    background-color: #F7C552;
+    padding: 5rem;
+}
+.marketing__title{
+    width: 50%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0.8rem;
+    margin-bottom: 3rem;
+}
+.marketing__title p{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.marketing h3{
+    margin: 0 auto;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+.marketing h4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog{
+    width: 100%;
+    background-image: url(/img/blog-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blog__title{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4rem;
+    padding: 3rem;
+}
+.blog__content h2{
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.blog__content p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.blog__post{
+    width: 210px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.blog__post a{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.blog__item{
+    width: 100%;
+    background-color: white;
+}
+.blog__item h3{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.blog__item a{
+    text-decoration: none;
+    color: #33C1CF;
+    font-family: sans-serif;
+}
+.blog__item p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.60;
+}
+.contact{
+    width: 100%;
+    background-color: #596065;
+}
+.contact__title{
+    width: 50%;
+    padding: 4rem;
+    margin: 0 auto;
+}
+.contact__title h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.contact__title p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+.contact__title input{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 10px;
+    border: none;
+    margin-left: 38%;
+    text-align: center;
+    background-color: #33C1CF;
+    color: white;
+}
+.map{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    background-color: #596065;
+    padding: 2rem;
+}
+.footer__title{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+    text-align: center;  
+}
+.footer__title h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+}
